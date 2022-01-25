@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Core", "WPF.Core\WPF.Co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestProject", "TestProject", "{00B15386-62F2-40BC-81B6-0C9AE349FB4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Core.TestProject", "WPF.Core.TestProject\WPF.Core.TestProject.csproj", "{DFBCE413-EB4A-4482-8EB7-2794B9AE0877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF.Core.TestProject", "WPF.Core.TestProject\WPF.Core.TestProject.csproj", "{DFBCE413-EB4A-4482-8EB7-2794B9AE0877}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

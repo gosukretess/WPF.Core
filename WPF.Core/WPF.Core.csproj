@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Kretess</Authors>
+    <Description>Simple library making it easier to use community toolkit and mvvm pattern in WPF applications on .NET 5 and 6.
+Enables mvvm, dependency injection and appsettings.json configuration.</Description>
+    <PackageProjectUrl>https://github.com/gosukretess/wpf-core</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
