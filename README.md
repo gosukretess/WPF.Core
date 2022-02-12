@@ -1,4 +1,4 @@
-# WPF.Core ![Nuget](https://img.shields.io/nuget/v/WPF.Core)
+# WPF.Core [![Nuget](https://img.shields.io/nuget/v/WPF.Core)](https://www.nuget.org/packages/WPF.Core/)
 A simple .NET library enabling MVVM, DI and appsettings.conf in WPF projects
 Uses Microsoft.Toolkit.Mvvm that lacks official documentation for WPF applications. This library aims to make creating simple WPF applications easier and faster.
 

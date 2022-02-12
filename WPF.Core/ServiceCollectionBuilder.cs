@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Linq;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -45,7 +44,7 @@ namespace WPF.Core
         public ServiceCollectionBuilder AddConfiguration(string fileName = "appsettings.json")
         {
             var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
+                .SetBasePath(AppContext.BaseDirectory)
                 .AddJsonFile(fileName, false, true);
             var configuration = builder.Build() as IConfiguration;
             _serviceCollection.AddSingleton(configuration);
